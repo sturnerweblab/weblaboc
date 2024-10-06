@@ -554,12 +554,6 @@ video {
   display: none;
 }
 
-.slabo-regular {
-  font-family: "Slabo 13px", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 * {
   font-family: "Karla", sans-serif;
   font-optical-sizing: auto;
@@ -695,12 +689,24 @@ p, ul {
   margin-bottom: 2rem;
 }
 
+.ml-8 {
+  margin-left: 2rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
 }
 
 .flex {
@@ -717,14 +723,6 @@ p, ul {
 
 .items-center {
   align-items: center;
-}
-
-.text-nowrap {
-  text-wrap: nowrap;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
 }
 
 .rounded-xl {
@@ -762,17 +760,8 @@ p, ul {
   background-position: center;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
 .p-12 {
   padding: 3rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .py-16 {
@@ -782,10 +771,6 @@ p, ul {
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-extrabold {
-  font-weight: 800;
 }
 
 .text-white {
